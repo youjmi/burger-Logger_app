@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             // Check that the response is all good
             // Reload the page so the user can see the new quote
             if (response.ok) {
-              console.log(`changed devour to: ${newDevour}`);
+              console.log(`changed sleep to: ${newDevour}`);
               location.reload('/');
             } else {
               alert('something went wrong!');
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           document.getElementById('bu').value = '';
   
           // Reload the page so the user can see the new quote
-          console.log('Created a new burger!');
+          console.log('Created a new cat!');
           location.reload();
         });
       });
@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           method: 'DELETE',
         }).then((res) => {
           console.log(res);
-          console.log(`Deleted Burger: ${id}`);
+          console.log(`Deleted cat: ${id}`);
   
           // Reload the page
           location.reload();
