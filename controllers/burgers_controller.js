@@ -11,7 +11,8 @@ router.get('/', (req, res) => {
     const hbsObject = {
       burgers: data,
     };
-    console.log(hbsObject);
+
+    console.log(hbsObject.burgers[0]);
     res.render('index', hbsObject);
   });
 });
@@ -26,7 +27,7 @@ router.post('/api/burgers', (req, res) => {
 router.put('/api/burgers/:id', (req, res) => {
   const condition = `id = ${req.params.id}`;
 
-  console.log('condition', condition);
+  // console.log('condition', condition);
 
   burger.update(
     {
