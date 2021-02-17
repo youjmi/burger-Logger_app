@@ -1,8 +1,10 @@
-/* li {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}  */
+body {
+  min-height: 100%;
+  background-image: url("../img/burger2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
  li {
   list-style-type: '🍔   ';
@@ -14,11 +16,6 @@
     margin: 10px;
     background: #faebd7;
   }
-/*   
-  li::before {
-    content: " ";
-  } */ */
-
 
   .label {
     font-weight: bold;
@@ -34,12 +31,7 @@
     margin-bottom: 5px;
   }
 
-  .bg {
-    background-image: url("../img/burger2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 
 .burgerhead ,.form-group {
   padding: 5px;
@@ -59,7 +51,7 @@
 h1 {
   text-align: center;
   font-family: 'Oswald', Helvetica, sans-serif;
-  font-size: 80px;
+  font-size: 100px;
   transform: skewY(-10deg);
   letter-spacing: 4px;
   word-spacing: -8px;
