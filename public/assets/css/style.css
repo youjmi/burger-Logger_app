@@ -1,9 +1,25 @@
-li {
-    padding: 5px;
-    margin: 5px;
+/* li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}  */
+
+ li {
+  list-style-type: '🍔   ';
+} 
+ 
+
+ li {
+    padding: 3px;
+    margin: 10px;
     background: #faebd7;
   }
-  
+/*   
+  li::before {
+    content: " ";
+  } */ */
+
+
   .label {
     font-weight: bold;
   }
@@ -17,4 +33,93 @@ li {
   .form-group {
     margin-bottom: 5px;
   }
+
+  .bg {
+    background-image: url("../img/burger2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.burgerhead ,.form-group {
+  padding: 5px;
+  margin: 5px;
+  color: #faebd7;
+}
+
+.holdbox {
+
+  background: rgba(0, 0, 0, 0.5); 
+  color: black; 
+  width: 100%; 
+  padding: 10px; 
   
+}
+  
+h1 {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 80px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey
+}
+
+
+.fa{
+  border-radius: 50%;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.fa-facebook{
+background-color: #3b5998;
+color: white;
+padding: 8px 13px 8px 13px;
+}
+
+.fa-github {
+  background-color: black;
+  color: white;
+  padding: 8px 10px 8px 10px;
+
+}
+
+.fa-youtube{
+  background-color: red;
+  color: white;
+  padding: 8px 10px 8px 10px;
+}
+
+.fa-linkedin{
+  background-color: #0e76a8;
+  color: white;
+  padding: 8px 10px 8px 10px;
+}
+
+.divider{
+  width:5px;
+  height:auto;
+  display:inline-block;
+}
+
+
+
+/* .bg { 
+  background: url("../img/burger2.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
