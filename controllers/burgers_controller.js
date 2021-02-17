@@ -12,15 +12,18 @@ router.get('/', (req, res) => {
       burgers: data,
     };
 
-    console.log(hbsObject.burgers[0]);
+    // console.log(hbsObject.burgers[0]);                           //<-- this works... but WHERE does it go...//
     res.render('index', hbsObject);
   });
 });
+
+
 
 router.post('/api/burgers', (req, res) => {
   burger.create(['burger_name', 'devoured'], [req.body.burger_name, req.body.devoured], (result) => {
     // Send back the ID of the new quote
     res.json({ id: result.insertId });
+    // res.redirect('/')
   });
 });
 

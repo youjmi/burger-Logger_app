@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           document.getElementById('bu').value = '';
   
           // Reload the page so the user can see the new quote
-          console.log('Created a new cat!');
+          console.log('Created a new burger!');
           location.reload();
         });
       });

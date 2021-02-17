@@ -92,6 +92,7 @@ const orm = {
       queryString += ' WHERE ';
       queryString += condition;
   
+      console.log(queryString);
       connection.query(queryString, (err, result) => {
         if (err) {
           throw err;
