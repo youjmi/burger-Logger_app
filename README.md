@@ -15,10 +15,6 @@
 
  Here is my HEROKU link : https://yjk-burgerapp.herokuapp.com/
 
-
- Here is the link to my video tutorial: https://drive.google.com/file/d/1mlAl1Db10I4w3rwA4OJeufxc71HdvjHd/view
-
-
 In this homework assignment, I have created a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. I have followed the MVC design pattern; using Node and MySQL to query and routing data in my app, and Handlebars to generate my HTML.
 
 ## Installation 
