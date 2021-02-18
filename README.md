@@ -46,11 +46,12 @@ This was to help me visualize the application before finalizing everything and D
 ## Usage
 Once that is invoked or the deployed Heroku Link is accessed, the user will be brought to this page: 
 
-![pic1Burg](https://user-images.githubusercontent.com/73494581/108283749-daad1d00-7151-11eb-8502-e2bb78af2606.png)
+![Screen Shot 2021-02-17 at 8 32 59 PM (2)](https://user-images.githubusercontent.com/73494581/108290986-7f822700-715f-11eb-827c-a96d9d589ae4.png)
 
 Here, you will noticed some default burgers I've added on MySQL. Each side represents if a Burger has been consume OR if the burger has NOT been consumed
 
-![pic2ofBurg](https://user-images.githubusercontent.com/73494581/108283746-d97bf000-7151-11eb-9353-55a618050b43.png)
+![Screen Shot 2021-02-17 at 8 33 09 PM (2)](https://user-images.githubusercontent.com/73494581/108290993-81e48100-715f-11eb-9027-7ee0dd413da6.png)
+
 
 When you add a burger (access found on the bottom) It will populate to either side indicating if the burger has been consumed or not. One this I would like to make note is to notice that I have added several buttons that will either:
 
@@ -63,7 +64,7 @@ When you add a burger (access found on the bottom) It will populate to either si
 
 Here you will notice that after I have clicked the Button "DEVOUR IT" the Original Cheese Burger has been notated on MySQL as 'devoured'
 
-![pic4ofburg](https://user-images.githubusercontent.com/73494581/108283742-d84ac300-7151-11eb-8692-a4fa6b6c2ce7.png)
+![Screen Shot 2021-02-17 at 8 33 17 PM (2)](https://user-images.githubusercontent.com/73494581/108291010-86a93500-715f-11eb-9d87-e9ce2f453627.png)
 
 Here you will noticed that I have DELETED the Original Cheese Burger
 
