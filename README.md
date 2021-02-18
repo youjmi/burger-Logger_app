@@ -53,14 +53,14 @@ Here, you will noticed some default burgers I've added on MySQL. Each side repre
 ![Screen Shot 2021-02-17 at 8 33 09 PM (2)](https://user-images.githubusercontent.com/73494581/108290993-81e48100-715f-11eb-9027-7ee0dd413da6.png)
 
 
-When you add a burger (access found on the bottom) It will populate to either side indicating if the burger has been consumed or not. One this I would like to make note is to notice that I have added several buttons that will either:
+When you add a burger (access found on the bottom) It will populate to either side indicating if the burger has been consumed or not. One thing I would like to make note is to notice that I have added several buttons that will either:
 
 1.  DELETE the burger entirely
 2.  Devour the burger, therefore moving to the other side
 3.  The user changing his or her mind when they don't feel like consuming the burger... ultimately moving the    
     burger option to the corresponding side. 
 
-![pic3ofburg](https://user-images.githubusercontent.com/73494581/108283744-d97bf000-7151-11eb-933d-57d5e16b765f.png)
+<img width="559" alt="Screen Shot 2021-02-17 at 8 39 06 PM" src="https://user-images.githubusercontent.com/73494581/108291395-3c748380-7160-11eb-800c-1ed86f3c0e3d.png">
 
 Here you will notice that after I have clicked the Button "DEVOUR IT" the Original Cheese Burger has been notated on MySQL as 'devoured'
 
@@ -68,7 +68,7 @@ Here you will notice that after I have clicked the Button "DEVOUR IT" the Origin
 
 Here you will noticed that I have DELETED the Original Cheese Burger
 
-![picfinalofburg](https://user-images.githubusercontent.com/73494581/108283741-d7b22c80-7151-11eb-8339-bc3b140a794a.png)
+<img width="534" alt="Screen Shot 2021-02-17 at 8 38 29 PM" src="https://user-images.githubusercontent.com/73494581/108291399-3ed6dd80-7160-11eb-83f0-26d03040db9b.png">
 
 Last picture represents that MySQL has updated AND DELETED the Original Cheese Burger information
 
